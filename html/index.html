@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS externo -->
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <!-- Navegação -->
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção 'Sobre Mim' -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor web com paixão por criar soluções criativas e eficientes. Tenho experiência com HTML, CSS, JavaScript, e frameworks modernos. Estou sempre em busca de aprender novas tecnologias e melhorar minhas habilidades para entregar projetos de alta qualidade.</p>
+            <p>Com um background em design e desenvolvimento, trago um olhar atento aos detalhes, focando na experiência do usuário e na performance das aplicações web.</p>
+        </div>
+    </section>
+
+    <!-- Seção 'Projetos' -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <!-- Grid para listar os projetos -->
+            <div class="projetos-grid">
+                <!-- Projeto 1 -->
+                <div class="projeto">
+                    <h3>Projeto 1: Sistema de Gestão</h3>
+                    <p>Desenvolvi um sistema completo de gestão para pequenas empresas, com funcionalidades de controle de estoque, vendas, e relatórios dinâmicos.</p>
+                    <a href="https://github.com/seu-repositorio/projeto1" class="botao">Ver no GitHub</a>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="projeto">
+                    <h3>Projeto 2: Landing Page</h3>
+                    <p>Uma landing page responsiva e otimizada para conversão, com design moderno e interativo, desenvolvida com HTML, CSS e JavaScript.</p>
+                    <a href="https://github.com/seu-repositorio/projeto2" class="botao">Ver no GitHub</a>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="projeto">
+                    <h3>Projeto 3: App de Tarefas</h3>
+                    <p>Um aplicativo de gerenciamento de tarefas com suporte a temas escuros e claros, armazenamento local e interface intuitiva.</p>
+                    <a href="https://github.com/seu-repositorio/projeto3" class="botao">Ver no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Seção 'Contato' -->
+<section id="contato" class="section">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Se você está interessado em discutir um projeto ou apenas quer dizer olá, entre em contato!</p>
+        <!-- Formulário de contato -->
+        <form action="https://formsubmit.co/rafaelsommer42@gmail.com" method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Rodapé do site -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
