@@ -1,0 +1,193 @@
+/* Reseta as margens e o preenchimento de todos os elementos, e define box-sizing para 'border-box' */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Fundo cinza claro */
+}
+
+/* Centraliza o conteúdo e define largura máxima */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #28a745; /* Verde escuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute; /* Cabeçalho fixo no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Remove marcadores da lista de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Exibe os itens da navegação horizontalmente */
+nav ul li {
+    margin: 0 20px;
+}
+
+/* Estiliza os links de navegação */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    font-size: 1.1em;
+}
+
+/* Efeito hover nos botões de navegação */
+nav ul li a:hover {
+    background-color: #218838;
+}
+
+/* Espaço do conteúdo abaixo do cabeçalho fixo */
+body {
+    padding-top: 80px;
+}
+
+/* Estilos para os títulos principais nas seções */
+.section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos das seções */
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+/* Estilos para os textos nas seções */
+#sobre p, #contato p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Layout da grid de projetos */
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; /* Espaçamento de 2rem entre os itens */
+    margin-top: 30px;
+}
+
+
+/* Estilo para os itens dos projetos */
+.projeto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+/* Efeito de hover para os projetos */
+.projeto:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilo dos títulos dos projetos */
+.projeto h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+/* Estilo do botão 'Ver no GitHub' */
+.botao {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #218838;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 0 0 10px 10px;
+}
